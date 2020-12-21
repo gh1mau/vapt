@@ -1,4 +1,4 @@
-### defectDojo docker setup
+### defectDojo docker setup (ubuntu 18.04)
 
 
 
