@@ -1,7 +1,5 @@
 ### pwndoc docker setup (ubuntu 18.04)
 
-
-
 #### <u>Install docker:</u>
 
 1. ```
@@ -50,15 +48,9 @@
    sudo systemctl status docker
    ```
 
-
-
-
-
 #### <u>Install docker compose</u>
 
-
-
-1.  Download docker-compose:
+1. Download docker-compose:
    
    ```
    sudo curl -L https://github.com/docker/compose/releases/download/1.27.4/docker-compose-uname -s-uname -m -o /usr/local/bin/docker-compose
@@ -76,13 +68,7 @@
    docker-compose --version
    ```
 
-
-
-
-
 #### <u>Setup pwndoc docker</u>
-
-
 
 1. Clone defectDojo repo:
    
@@ -122,28 +108,12 @@
        sudo docker-compose down
        git pull
        sudo docker-compose up -d --build
-   
-   
 
 7. Application is accessible through https://localhost:8443
    
    API is accessible through https://localhost:4242/api
    
    https://localhost:4242/api/users/init
-   
-   
 
 8. Documentation:
    https://pwndoc.github.io/pwndoc/
-   
-   
-   
-   
-
-
-
-
-
-
-
-
