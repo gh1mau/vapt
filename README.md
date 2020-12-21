@@ -2,7 +2,7 @@
 
 Notes on VAPT issues, techniques and tactics
 
-1. [Vulnerability Assessment and Penetration Testing Management Methodology]([vapt/VAPT methodology.md at main · gh1mau/vapt · GitHub](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#vulnerability-assessment-and-penetration-testing-management-methodology))
+1. ([Vulnerability Assessment and Penetration Testing Management Methodology](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#vulnerability-assessment-and-penetration-testing-management-methodology))
 
 2. [defectDojo docker setup (ubuntu 18.04)]([vapt/defectDojo.md at main · gh1mau/vapt · GitHub](https://github.com/gh1mau/vapt/blob/main/defectDojo.md#defectdojo-docker-setup-ubuntu-1804))
 
