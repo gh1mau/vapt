@@ -1,7 +1,5 @@
 ### defectDojo docker setup (ubuntu 18.04)
 
-
-
 #### <u>Install docker:</u>
 
 1. ```
@@ -50,15 +48,9 @@
    sudo systemctl status docker
    ```
 
-
-
-
-
 #### <u>Install docker compose</u>
 
-
-
-1.  Download docker-compose:
+1. Download docker-compose:
    
    ```
    sudo curl -L https://github.com/docker/compose/releases/download/1.27.4/docker-compose-uname -s-uname -m -o /usr/local/bin/docker-compose
@@ -76,13 +68,7 @@
    docker-compose --version
    ```
 
-
-
-
-
 #### <u>Setup defectDojo docker</u>
-
-
 
 1. Clone defectDojo repo:
    
@@ -116,7 +102,11 @@
    sudo docker-compose exec uwsgi /bin/bash -c 'python manage.py createsuperuser'
    ```
 
-6. localhost:8080 or x.x.x.x:8080 to access defectDojo
+6. Application is accessible through: 
+   
+   ```
+   http://x.x.x.x:8080
+   ```
 
 7. Update defectDojo:
    
@@ -127,13 +117,3 @@
    
    sudo docker-compose build
    ```
-
-
-
-
-
-
-
-
-
-
