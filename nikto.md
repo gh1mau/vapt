@@ -78,5 +78,3 @@
    | 8       | Used windows directory separator \               |
    | A       | Use a carriage return (0x0d) as a request spacer |
    | B       | Use binary value (0x0b) as a request spacer      |
-
-
