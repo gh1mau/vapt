@@ -70,7 +70,7 @@
 
 #### <u>Setup pwndoc docker</u>
 
-1. Clone defectDojo repo:
+1. Clone pwndoc repo:
    
    ```
    git clone https://github.com/pwndoc/pwndoc.git
