@@ -104,10 +104,10 @@
    sudo docker-compose up
    ```
 
-4. Stop and remove container:
+4. Stop the container:
    
    ```
-   sudo docker-compose down
+   sudo docker-compose stop
    ```
 
 5. Create admin user for defectDojo:
@@ -117,6 +117,16 @@
    ```
 
 6. localhost:8080 or x.x.x.x:8080 to access defectDojo
+
+7. Update defectDojo:
+   
+   ```
+   sudo docker-compose down
+   
+   git pull
+   
+   sudo docker-compose build
+   ```
 
 
 
