@@ -1,56 +1,41 @@
-### defectDojo docker setup</u>
+### defectDojo docker setup
 
 
 
-#### <mark><u>Install docker:</u></mark>
+#### <u>Install docker:</u>
 
 
 
-`sudo apt update`
+1. `sudo apt update`
+   
 
+2. Next, install a few prerequisite packages which let apt use packages over HTTPS:
+   `sudo apt install apt-transport-https ca-certificates curl software-properties-common`
+   
 
+3. Then add the GPG key for the official Docker repository to your system:
+   `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
+   
 
-Next, install a few prerequisite packages which let apt use packages over HTTPS:
+4. Add the Docker repository to APT sources:
+   `sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"`
+   
 
-`sudo apt install apt-transport-https ca-certificates curl software-properties-common`
+5. Next, update the package database with the Docker packages from the newly added repo:
+   `sudo apt update`
+   
+   
 
+6. Make sure you are about to install from the Docker repo instead of the default Ubuntu repo:
+   `apt-cache policy docker-ce`
+   
 
+7. Finally, install Docker:
+   `sudo apt install docker-ce`
+   
 
-Then add the GPG key for the official Docker repository to your system:
-
-`curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
-
-
-
-Add the Docker repository to APT sources:
-
-`sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"`
-
-
-
-Next, update the package database with the Docker packages from the newly added repo:
-
-`sudo apt update`
-
-
-
-Make sure you are about to install from the Docker repo instead of the default Ubuntu repo:
-
-`apt-cache policy docker-ce`
-
-
-
-Finally, install Docker:
-
-
-
-`sudo apt install docker-ce`
-
-
-
-Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it’s running:
-
-`sudo systemctl status docker`
+8. Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it’s running:
+   `sudo systemctl status docker`
 
 
 
