@@ -1,10 +1,14 @@
-### defectDojo docker setup
+### defectDojo docker setup</u>
 
 
 
-##### <u>Install docker:</u>
+#### <mark><u>Install docker:</u></mark>
 
-##### `sudo apt update`
+
+
+`sudo apt update`
+
+
 
 Next, install a few prerequisite packages which let apt use packages over HTTPS:
 
