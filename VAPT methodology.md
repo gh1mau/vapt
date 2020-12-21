@@ -6,7 +6,7 @@
 
 1. Run Nessus scan and export the xml file.
 
-2. Run nikto and export the xml file (refer to [Setup Nikto in Ubuntu 18.04]([vapt/nikto.md at main · gh1mau/vapt · GitHub](https://github.com/gh1mau/vapt/blob/main/nikto.md#setup-nikto-in-ubuntu-1804))
+2. Run nikto and export the xml file (refer to [Setup Nikto in Ubuntu 18.04](https://github.com/gh1mau/vapt/blob/main/nikto.md#setup-nikto-in-ubuntu-1804)
    
    `./nikto.pl -h target -o target.xml`
 
