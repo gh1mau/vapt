@@ -42,6 +42,8 @@
 
 4. Run **OWASP ZAP** and export the xml file
    
-   | Instructions                                                                                          |
-   | ----------------------------------------------------------------------------------------------------- |
-   | Run **OWASP ZAP** and save the **XML** result. Save in `arachni_target_dd-mm-yyyy.json` format. <br/> |
+   | Instructions                                                                                                                                                                  |
+   | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | Run **OWASP ZAP** and save the **XML** result. Save in `zap_target_dd-mm-yyyy.json` format. <br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/zap_report.png) |
+   | ImportOWASP ZAP report to defectDojo<br/>                                                                                                                                     |
+   |                                                                                                                                                                               |
