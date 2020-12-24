@@ -1,8 +1,12 @@
-### Vulnerability Assessment and Penetration Testing Management Methodology
+## Vulnerability Assessment and Penetration Testing Management Methodology Simplified
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/VAPT%20methodology.png)
 
-#### Scanning Phase:
+1. [Scanning Phase](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#scanning-phase)
+   
+   
+
+### Scanning Phase:
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/scanning_phase.png)
 
@@ -26,13 +30,18 @@
    
    
 
-3. Run **arachni scan** and expot the report (JSON format)
+3. Run **arachni scan** and export the report (JSON format)
    
    | Instructions                                                                                                                                                                                                                                                                          |
    | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
    | Run **arachni scan** (set the corresponding profile) and save the **JSON** result. Save in `arachni_target_dd-mm-yyyy.json` format. <br/><br/>Example:<br/>`arachni_www.gh1mau.com_22-12-2020.json`![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/arachni_report_1.png) |
-   | Import arachni report to defectDojo<br/>                                                                                                                                                                                                                                              |
+   | Import arachni report to defectDojo<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/arachni_import_dojo.png)                                                                                                                                                         |
+   | You will be redirected to **Engagements** area, we will be touching this during the **Verification of the Findings Phase**.<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/arachni_import_dojo_engagement.png)                                                      |
    
    
 
 4. Run **OWASP ZAP** and export the xml file
+   
+   | Instructions                                                                                          |
+   | ----------------------------------------------------------------------------------------------------- |
+   | Run **OWASP ZAP** and save the **XML** result. Save in `arachni_target_dd-mm-yyyy.json` format. <br/> |
