@@ -8,9 +8,9 @@
 
 1. Run **Nessus** scan and export the xml file.
    
-   | Instructions                                                                      |
-   | --------------------------------------------------------------------------------- |
-   | Run nessus scan (set the corresponding profile) and save the **CSV** result.<br/> |
+   | Instructions                                                                                                                                                                                                                                                                                                                                                                                                      |
+   | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | Run nessus scan (set the corresponding profile) and save the **CSV** result.<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/nessus_report_1.png)<br/><br/>Select All Columns and Generate Report. Save in nessus_target_dd-mm-yyyy.csv format.<br/><br/>Example:<br/>nessus_www.gh1mau.com_22-12-2020.csv<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/nessus_report_2.png) |
    
    
 
