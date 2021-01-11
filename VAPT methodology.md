@@ -2,6 +2,8 @@
 
 1. Introduction
 
+2. VA Scanning Tools
+
 ### Introduction
 
 > A **Vulnerability Assessment** provides organizations with the <u>knowledge, awareness, and risk background necessary to understand threats to their environment and react accordingly</u>.
@@ -43,7 +45,7 @@ The assessment would be divided into two(2) main approach:
 
 
 
-The VAPT assessment flow diagram:
+<u>The VAPT assessment flow diagram:</u>
 
 
 
@@ -57,6 +59,25 @@ The VAPT assessment flow diagram:
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | BlackBox Testing | VAPT assessement is conducted **without any knowledge** of the  Web Application's credential(s)                                                                                                                                                                                                                         |
 | WhiteBox Testing | VAPT assessment is conducted **with the knowledge** of the Web Application's credential(s). The credentials are either found during the BlackBox testing or given by the client.<br/><br/>We will be using the lowest privillege user for testing, trying to escalate the privilege and do more 'damage' to the target. |
+
+
+
+### VA Scanning Tools
+
+There a many tools that can be use to accomplish this assessment, both commercial or open source tools. For this **Simplified Methodology** I am going to suggest and use the following:
+
+
+
+| Tools             | Focus                | BlackBox | WhiteBox |
+| ----------------- | -------------------- |:--------:|:--------:|
+| Nessus Essentials | OS / Host Assessment | Yes      | Yes      |
+| Nikto             | Web Application      | Yes      | No       |
+| Arachni           | Web Application      | Yes      | Yes      |
+| OWASP ZAP         | Web Application      | Yes      | Yes      |
+
+<sub>Note : Arachni development has stopped and they are going commercial soon :(</sub>
+
+
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/VAPT%20methodology.png)
 
