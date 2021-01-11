@@ -1,16 +1,14 @@
 ### pwndoc docker setup (ubuntu 18.04)
 
-
-
 1. [Install docker](https://github.com/gh1mau/vapt/blob/main/pwndoc.md#install-docker)
 
 2. [Install docker-compose](https://github.com/gh1mau/vapt/blob/main/pwndoc.md#install-docker-compose)
 
 3. [Setup pwndoc docker](https://github.com/gh1mau/vapt/blob/main/pwndoc.md#setup-pwndoc-docker)
-   
-   ---
-   
-   
+
+4. [Troubleshooting](https://github.com/gh1mau/vapt/blob/main/pwndoc.md#troubleshooting)
+
+---
 
 #### <u>Install docker:</u>
 
@@ -60,6 +58,8 @@
    sudo systemctl status docker
    ```
 
+---
+
 #### <u>Install docker compose</u>
 
 1. Download docker-compose:
@@ -79,6 +79,8 @@
    ```
    docker-compose --version
    ```
+
+---
 
 #### <u>Setup pwndoc docker</u>
 
@@ -129,3 +131,43 @@
 
 8. Documentation:
    https://pwndoc.github.io/pwndoc/
+
+---
+
+#### <u>Troubleshooting</u>
+
+1. If you got this error, it means the port that the container wants to use is already allocated, so we need to change it to other port number.
+   
+   ```
+   ERROR: for pwndoc-frontend  Cannot start service pwndoc-frontend: driver failed programming external connectivity on endpoint pwndoc-frontend (239c1d41e7ed80679f62074add1795ecb7cfe0d75f50bb9c339c29c192b12a13): Bind for 0.0.0.0:8443 failed: port is already allocated
+   ```
+
+   Open docker-compose.yml:
+
+> ```
+>    pwndoc-frontend:
+>        build: ./frontend
+>        image: yeln4ts/pwndoc:frontend
+>        container_name: pwndoc-frontend
+>        restart: always
+>        ports:
+>          - 8443:8443
+>        networks:
+>          - backend
+> ```
+
+   Change the ports: 
+
+```
+   pwndoc-frontend:
+       build: ./frontend
+       image: yeln4ts/pwndoc:frontend
+       container_name: pwndoc-frontend
+       restart: always
+       ports:
+         - 8888:8443
+       networks:
+         - backend
+```
+
+        
