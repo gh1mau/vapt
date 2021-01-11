@@ -1,4 +1,4 @@
-## Vulnerability Assessment and Penetration Testing Management Methodology Simplified
+## Web Application Vulnerability Assessment and Penetration Testing Management Methodology Simplified
 
 1. Introduction
 
@@ -22,10 +22,23 @@ To simplify the definitions:
 
 
 
-| Assessment               | Descriptions                                                                                                                                                                                                                                                                             |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Vulnerability Assessment | Automated Scanning your assets to find potential, possible known vulnerabilities and take proper security measures accordingly.                                                                                                                                                          |
-| Penetration Test         | Based on the Vulnerability Assessment findings, we need to provide Proof of Concept to simulate the possible attempts of exploit that could happen, we also could indentify false positive, false negative, true positive and true negative issues based on the Vulnerability Assessment |
+| Assessment               | Descriptions                                                                                                                                                                                                                                                                                                             |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Vulnerability Assessment | Automated Scanning your assets to find potential, possible known vulnerabilities and take proper security measures accordingly.                                                                                                                                                                                          |
+| Penetration Test         | Based on the Vulnerability Assessment findings, we need to provide **Proof of Concept** to simulate the possible attempts of **exploit** that could happen, we also could identify **false positive**, **false negative**, **true positive** and **true negative** issues based on the Vulnerability Assessment findings |
+
+
+
+To make things simpler yet comprehensive, I'll share the **Web Application Vulnerability Assessment and Penetration Testing Management Methodology Simplified** that I used for VAPT Assessements on common Web Applications.
+
+
+
+The assessment would be divided into two(2) main approach:
+
+| Assessment       | Descriptions                                                                                                                                                                                                                                                                                                            |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| BlackBox Testing | VAPT assessement is conducted **without any knowledge** of the  Web Application's credential(s)                                                                                                                                                                                                                         |
+| WhiteBox Testing | VAPT assessment is conducted **with the knowledge** of the Web Application's credential(s). The credentials are either found during the BlackBox testing or given by the client.<br/><br/>We will be using the lowest privillege user for testing, trying to escalate the privilege and do more 'damage' to the target. |
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/VAPT%20methodology.png)
 
