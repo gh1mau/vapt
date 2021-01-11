@@ -35,6 +35,16 @@ To make things simpler yet comprehensive, I'll share the **Web Application Vulne
 
 The assessment would be divided into two(2) main approach:
 
+1. BlackBox Testing
+
+2. WhiteBox Testing
+
+
+
+
+
+
+
 | Assessment       | Descriptions                                                                                                                                                                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | BlackBox Testing | VAPT assessement is conducted **without any knowledge** of the  Web Application's credential(s)                                                                                                                                                                                                                         |
