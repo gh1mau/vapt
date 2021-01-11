@@ -4,7 +4,9 @@
 
 2. [VA Scanning Tools](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#va-scanning-tools)
 
-3. Methodology
+3. [Methodology](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#methodology)
+
+4. BlackBox Scanning Phase
 
 ---
 
@@ -43,7 +45,11 @@ The assessment would be divided into two(2) main approach:
 | BlackBox Testing | VAPT assessement is conducted **without any knowledge** of the  Web Application's credential(s)                                                                                                                                                                                                                         |
 | WhiteBox Testing | VAPT assessment is conducted **with the knowledge** of the Web Application's credential(s). The credentials are either found during the BlackBox testing or given by the client.<br/><br/>We will be using the lowest privillege user for testing, trying to escalate the privilege and do more 'damage' to the target. |
 
+<sub>[toc](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#web-application-vulnerability-assessment-and-penetration-testing-management-methodology-simplified-web-vapt-mms)</sub>
+
 ---
+
+
 
 ### VA Scanning Tools
 
@@ -57,6 +63,8 @@ There a many tools that can be use to accomplish this assessment, both commercia
 | OWASP ZAP         | Web Application      | Yes      | Yes      |
 
 <sub>Note : Arachni development has stopped and they are going commercial soon :(</sub>
+
+<sub>[toc](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#web-application-vulnerability-assessment-and-penetration-testing-management-methodology-simplified-web-vapt-mms)</sub>
 
 ---
 
@@ -72,31 +80,37 @@ We will discuss briefly every phase involves in Web-VAPT-MMS and will go deeper 
 
 
 
-| Scanning Phase                                                                                                                                                                                                           |
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| This phase will cover both the **BlackBox** and **WhiteBox** assessments using the tools mentioned in the [VA Scanning Tools](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#va-scanning-tools) section. |
+| Scanning Phase                                                                                                                                                                                                                                                                           |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| This phase will cover both the **BlackBox** and **WhiteBox** assessments using the tools mentioned in the [VA Scanning Tools](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#va-scanning-tools) section. Later we'll need to import the report/result to the next phase. |
 
 | Massaging Phase                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | In this phase we will be using defectDojo ([defectDojo docker setup (ubuntu 18.04](https://github.com/gh1mau/vapt/blob/main/defectDojo.md#defectdojo-docker-setup-ubuntu-1804)) as our VAPT Management Platform.  Several processes involves in this phase:<br/>    - Import Findings from VA SCanning Tools<br/>    - Integrations and Merging the findings to defectDojo<br/>    - Verifications and analysis of findings, false positive indentifications<br/>    - Vulnerabilty Assessment Reporting<br/>    - Security Metrics |
 
-| PoC Phase                                                                                                                                                                                      |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| In this phase we will do the actual exploit, try dig and poke as deep as we can to compromise the system/target, findings from this phase will be presented in the Penetration Testing report. |
+| PoC Phase                                                                                                                                                                                                                                                                                                              |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| In this phase we will do the actual exploit, trying to dig and poke as deep as we can to compromise the system/target, findings from this phase will be presented in the Penetration Testing report. We will be using multiple exploitation tools, exploit code accordingly based on the Massaging Phase reports/data. |
+
+| Reporting Phase                                                                                                                                                                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| The last phase of the Web-VAPT-MMS first cycle. We are going to use pwndoc ([pwndoc docker setup (ubuntu 18.04](https://github.com/gh1mau/vapt/blob/main/pwndoc.md)) for Penetration Testing report generator. We may need to start over the whole process for re-test if needed. |
 
 
 
+At the end, the output of the Web-VAPT-MMS process will produce two(2) reports:
 
+1. Vulnerability Assessment Report (defectDojo)
+
+2. Penetration Testing Report (pwndoc)
+
+<sub>[toc](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#web-application-vulnerability-assessment-and-penetration-testing-management-methodology-simplified-web-vapt-mms)</sub>
 
 ---
 
+### BlackBox Scanning Phase
 
 
-
-
-
-
-### Scanning Phase:
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/scanning_phase.png)
 
