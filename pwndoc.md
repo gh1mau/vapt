@@ -123,14 +123,25 @@
        git pull
        sudo docker-compose up -d --build
 
-7. Application is accessible through https://localhost:8443
+7. Application is accessible through 
    
-   API is accessible through https://localhost:4242/api
+   ```
+   https://localhost:8443
+   ```
    
-   https://localhost:4242/api/users/init
+   API is accessible through
+   
+   ```
+    https://localhost:4242/api
+   ```
+   
+   ```
+    https://localhost:4242/api/users/init
+   ```
 
 8. Documentation:
-   https://pwndoc.github.io/pwndoc/
+   
+   >  https://pwndoc.github.io/pwndoc/
 
 ---
 
@@ -141,7 +152,7 @@
    ```
    ERROR: for pwndoc-frontend  Cannot start service pwndoc-frontend: driver failed programming external connectivity on endpoint pwndoc-frontend (239c1d41e7ed80679f62074add1795ecb7cfe0d75f50bb9c339c29c192b12a13): Bind for 0.0.0.0:8443 failed: port is already allocated
    ```
-
+   
    Open docker-compose.yml:
 
 > ```
@@ -156,18 +167,24 @@
 >          - backend
 > ```
 
-   Change the ports: 
+ Change the ports: 
+
+> ```
+>    pwndoc-frontend:
+>        build: ./frontend
+>        image: yeln4ts/pwndoc:frontend
+>        container_name: pwndoc-frontend
+>        restart: always
+>        ports:
+>          - 8888:8443
+>        networks:
+>          - backend
+> ```
+
+      
+
+    And the application can be access through:
 
 ```
-   pwndoc-frontend:
-       build: ./frontend
-       image: yeln4ts/pwndoc:frontend
-       container_name: pwndoc-frontend
-       restart: always
-       ports:
-         - 8888:8443
-       networks:
-         - backend
+    https://<ip-address>:8888
 ```
-
-        
