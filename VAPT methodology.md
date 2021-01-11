@@ -1,10 +1,10 @@
-## Web Application Vulnerability Assessment and Penetration Testing Management Methodology Simplified
+## Web Application Vulnerability Assessment and Penetration Testing Management Methodology Simplified (Web-VAPT-MMS)
 
 1. [Introduction](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#introduction)
 
 2. [VA Scanning Tools](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#va-scanning-tools)
 
-3. BlackBox Scanning Phase
+3. Methodology
 
 ---
 
@@ -90,7 +90,11 @@ There a many tools that can be use to accomplish this assessment, both commercia
 
 ---
 
+### 
 
+### Methodology
+
+Following diagram shows the **General Overview** for Web Application Vulnerability Assessment and Penetration Testing Management Methodology Simplified (**Web-VAPT-MMS**)
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/VAPT%20methodology.png)
 
