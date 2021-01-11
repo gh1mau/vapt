@@ -8,40 +8,24 @@
 
 ---
 
-
-
 ### Introduction
 
 > A **Vulnerability Assessment** provides organizations with the <u>knowledge, awareness, and risk background necessary to understand threats to their environment and react accordingly</u>.
 > 
-> 
-> 
 > A **Penetration test (Pen-Test)** <u>attempts to exploit the vulnerabilities identified during Vulnerability Assessment to determine whether unauthorized access or other malicious activity is possible</u>.
 > 
-> 
-> 
 > As part of Vulnerability Assessment and Penetration Testing, a detailed analysis on the current architecture, internal security of system components and identify all vulnerabilities by using a phased approach to ensure that malicious intruders do not gain the access to critical assets stored, processed or transmitted should be conducted
-
-
 
 To simplify the definitions:
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/VAPT%20Intro.png)
-
-
 
 | Assessment               | Descriptions                                                                                                                                                                                                                                                                                                             |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Vulnerability Assessment | Automated Scanning your assets to find potential, possible known vulnerabilities and take proper security measures accordingly.                                                                                                                                                                                          |
 | Penetration Test         | Based on the Vulnerability Assessment findings, we need to provide **Proof of Concept** to simulate the possible attempts of **exploit** that could happen, we also could identify **false positive**, **false negative**, **true positive** and **true negative** issues based on the Vulnerability Assessment findings |
 
-
-
 To make things simpler yet comprehensive, I'll share the **Web Application Vulnerability Assessment and Penetration Testing Management Methodology Simplified** that I used for VAPT Assessements on common Web Applications.
-
-
-
-
 
 The assessment would be divided into two(2) main approach:
 
@@ -50,19 +34,9 @@ The assessment would be divided into two(2) main approach:
 | 1   | BlackBox   | Without credentials |
 | 2   | WhiteBox   | With credentials    |
 
-
-
-
-
 <u>The VAPT assessment flow diagram:</u>
 
-
-
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/VAPT%20testing.png)
-
-
-
-
 
 | Assessment       | Descriptions                                                                                                                                                                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -71,13 +45,9 @@ The assessment would be divided into two(2) main approach:
 
 ---
 
-
-
 ### VA Scanning Tools
 
 There a many tools that can be use to accomplish this assessment, both commercial or open source tools. For this **Simplified Methodology** I am going to suggest and use the following:
-
-
 
 | Tools             | Focus                | BlackBox | WhiteBox |
 | ----------------- | -------------------- |:--------:|:--------:|
@@ -98,7 +68,35 @@ Following diagram shows the **General Overview** for Web Application Vulnerabili
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/VAPT%20methodology.png)
 
+We will discuss briefly every phase involves in Web-VAPT-MMS and will go deeper in later sections.
+
+
+
+| Scanning Phase                                                                                                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| This phase will cover both the **BlackBox** and **WhiteBox** assessments using the tools mentioned in the [VA Scanning Tools](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#va-scanning-tools) section. |
+
+| Massaging Phase                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| In this phase we will be using defectDojo ([defectDojo docker setup (ubuntu 18.04](https://github.com/gh1mau/vapt/blob/main/defectDojo.md#defectdojo-docker-setup-ubuntu-1804)) as our VAPT Management Platform.  Several processes involves in this phase:<br/>    - Import Findings from VA SCanning Tools<br/>    - Integrations and Merging the findings to defectDojo<br/>    - Verifications and analysis of findings, false positive indentifications<br/>    - Vulnerabilty Assessment Reporting<br/>    - Security Metrics<br/><br/><br/>*What is DefectDojo?
+<br/>DefectDojo is a security tool that automates application security vulnerability management. DefectDojo streamlines the application security testing process by offering features such as importing third party security findings, merging and de-duping, integration with Jira, templating, report generation and security metrics.
+<br/>
+<br/>What does DefectDojo do?
+<br/>While traceability and metrics are the ultimate end goal, DefectDojo is a bug tracker at its core. Taking advantage of DefectDojo’s Product:Engagement model, enables traceability among multiple projects and test cycles, and allows for fine-grained reporting.<br/>*<br/><sub>Source: https://defectdojo.readthedocs.io/en/latest/index.html</sub> |
+
+| PoC Phase                                                                                                                                                                                      |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| In this phase we will do the actual exploit, try dig and poke as deep as we can to compromise the system/target, findings from this phase will be presented in the Penetration Testing report. |
+
+
+
+
+
 ---
+
+
+
+
 
 
 
