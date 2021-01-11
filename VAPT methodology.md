@@ -1,8 +1,12 @@
 ## Web Application Vulnerability Assessment and Penetration Testing Management Methodology Simplified
 
-1. Introduction
+1. [Introduction](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#introduction)
 
-2. VA Scanning Tools
+2. [VA Scanning Tools](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#va-scanning-tools)
+
+---
+
+
 
 ### Introduction
 
@@ -60,6 +64,8 @@ The assessment would be divided into two(2) main approach:
 | BlackBox Testing | VAPT assessement is conducted **without any knowledge** of the  Web Application's credential(s)                                                                                                                                                                                                                         |
 | WhiteBox Testing | VAPT assessment is conducted **with the knowledge** of the Web Application's credential(s). The credentials are either found during the BlackBox testing or given by the client.<br/><br/>We will be using the lowest privillege user for testing, trying to escalate the privilege and do more 'damage' to the target. |
 
+---
+
 
 
 ### VA Scanning Tools
@@ -76,6 +82,8 @@ There a many tools that can be use to accomplish this assessment, both commercia
 | OWASP ZAP         | Web Application      | Yes      | Yes      |
 
 <sub>Note : Arachni development has stopped and they are going commercial soon :(</sub>
+
+---
 
 
 
