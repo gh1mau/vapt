@@ -37,15 +37,17 @@ To make things simpler yet comprehensive, I'll share the **Web Application Vulne
 
 The assessment would be divided into two(2) main approach:
 
-1. **BlackBox Testing**
+1. **BlackBox Testing** (Without credentials)
 
-2. **WhiteBox Testing**
+2. **WhiteBox Testing** (With credentials)
+
+
+
+The VAPT assessment flow diagram:
 
 
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/VAPT%20testing.png)
-
-
 
 
 
