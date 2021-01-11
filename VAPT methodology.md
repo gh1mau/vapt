@@ -4,6 +4,8 @@
 
 2. [VA Scanning Tools](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#va-scanning-tools)
 
+3. BlackBox Scanning Phase
+
 ---
 
 
@@ -43,9 +45,12 @@ To make things simpler yet comprehensive, I'll share the **Web Application Vulne
 
 The assessment would be divided into two(2) main approach:
 
-1. **BlackBox Testing** (Without credentials)
+| #   | Assessment | Approach            |
+|:---:| ---------- | ------------------- |
+| 1   | BlackBox   | Without credentials |
+| 2   | WhiteBox   | With credentials    |
 
-2. **WhiteBox Testing** (With credentials)
+
 
 
 
@@ -92,8 +97,6 @@ There a many tools that can be use to accomplish this assessment, both commercia
 ---
 
 
-
-1. [Scanning Phase](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#scanning-phase)
 
 ### Scanning Phase:
 
