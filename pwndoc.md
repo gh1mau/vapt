@@ -1,5 +1,17 @@
 ### pwndoc docker setup (ubuntu 18.04)
 
+
+
+1. [Install docker](https://github.com/gh1mau/vapt/blob/main/pwndoc.md#install-docker)
+
+2. [Install docker-compose](https://github.com/gh1mau/vapt/blob/main/pwndoc.md#install-docker-compose)
+
+3. [Setup pwndoc docker](https://github.com/gh1mau/vapt/blob/main/pwndoc.md#setup-pwndoc-docker)
+   
+   ---
+   
+   
+
 #### <u>Install docker:</u>
 
 1. ```
