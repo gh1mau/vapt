@@ -18,6 +18,10 @@
 
 To simplify the definitions:
 
+![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/VAPT%20Intro.png)
+
+
+
 | Assessment               | Descriptions                                                                                                                                                                                                                                                                             |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Vulnerability Assessment | Automated Scanning your assets to find potential, possible known vulnerabilities and take proper security measures accordingly.                                                                                                                                                          |
