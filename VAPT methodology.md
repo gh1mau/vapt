@@ -92,17 +92,17 @@ We will discuss briefly every phase involves in Web-VAPT-MMS and will go deeper 
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | In this phase we will do the actual exploit, trying to dig and poke as deep as we can to compromise the system/target, findings from this phase will be presented in the Penetration Testing report. We will be using multiple exploitation tools, exploit code accordingly based on the Massaging Phase reports/data. |
 
-| Reporting Phase                                                                                                                                                                                                                                                                   |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| The last phase of the Web-VAPT-MMS first cycle. We are going to use pwndoc ([pwndoc docker setup (ubuntu 18.04](https://github.com/gh1mau/vapt/blob/main/pwndoc.md)) for Penetration Testing report generator. We may need to start over the whole process for re-test if needed. |
+| Reporting Phase                                                                                                                                                                                                                                                                |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| The last phase of the Web-VAPT-MMS first cycle. We will be using pwndoc ([pwndoc docker setup (ubuntu 18.04](https://github.com/gh1mau/vapt/blob/main/pwndoc.md)) for Penetration Testing report generator. We may need to start over the whole process for re-test if needed. |
 
 
 
 At the end, the output of the Web-VAPT-MMS process will produce two(2) reports:
 
-1. Vulnerability Assessment Report (defectDojo)
+1. Vulnerability Assessment Report (**defectDojo**)
 
-2. Penetration Testing Report (pwndoc)
+2. Penetration Testing Report (**pwndoc**)
 
 <sub>[toc](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#web-application-vulnerability-assessment-and-penetration-testing-management-methodology-simplified-web-vapt-mms)</sub>
 
