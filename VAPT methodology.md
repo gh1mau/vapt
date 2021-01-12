@@ -8,6 +8,10 @@
 
 4. BlackBox Scanning Phase
 
+5. WhiteBox Scanning Phase
+
+6. Massaging Phase
+
 ---
 
 ### Introduction
@@ -109,6 +113,24 @@ At the end, the output of the Web-VAPT-MMS process will produce two(2) reports:
 ---
 
 ### BlackBox Scanning Phase
+
+As mentioned earlier, BlackBox Scanning in **Web-VAPT-MMS** context means as simple as scanning targets without credentials, put in your target ip/url and hit the scan button and buy your self a good cup of coffee. To save time, we might run the scanners simultaneously. 
+
+
+
+The objective of this phase would be:
+
+1. Perform common Vulnerability Scanning against target
+
+2. Saving the results, later will import to defectDojo
+
+
+
+During the Massaging Phase later, we will corelate and analyze the findings/scanning results to find potential entry point(s) to exploit.
+
+
+
+
 
 
 
