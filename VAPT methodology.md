@@ -124,9 +124,10 @@ During the Massaging Phase later, we will corelate and analyze the findings/scan
 
 While here is the basic steps to BlackBox Scanning
 
-| Nessus |
-| ------ |
-|        |
+| Nessus                                                                                                                                                            |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Run **nessus scan** to the target without providing any credentials.<br/><br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/nessus_blackbox_1.PNG) |
+| Save the report in CSV with the following naming format:<br/>`nessus_<target>_dd-mm-yyyy.csv`<br/><br/>                                                           |
 
 1. Run **Nessus** scan and export the xml file.
    
