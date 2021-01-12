@@ -125,23 +125,24 @@ During the Massaging Phase later, we will corelate and analyze the findings/scan
 While here is the basic steps to BlackBox Scanning
 
 | Nessus                                                                                                                                                                                     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Run **nessus scan** to the target without providing any credentials.<br/><br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/nessus_blackbox_1.PNG)                          |
 | Save the report in CSV with the following naming format:<br/>`nessus_<target>_dd-mm-yyyy.csv`<br/><br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/nessus_blackbox_2.PNG) |
 
 
 
+| Nikto                                                                                                                                                                                                                                                                  |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Run nikto and save xml result. You can refer [Setup Nikto in Ubuntu 18.04](https://github.com/gh1mau/vapt/blob/main/nikto.md#setup-nikto-in-ubuntu-1804) for setup and cheat sheet.<br/><br/>`./nikto.pl -h target -maxtime 3600s -o nikto_target_dd-mm-yyyy.xml`<br/> |
+|                                                                                                                                                                                                                                                                        |
 
 
-1. Run **nikto** and export the xml file (refer to [Setup Nikto in Ubuntu 18.04](https://github.com/gh1mau/vapt/blob/main/nikto.md#setup-nikto-in-ubuntu-1804) for setup and cheat sheet).
-   
-   | Instructions                                                                                                                                                                                                                                                                                             |
-   | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-   | Run nikto and save xml results:<br/>`./nikto.pl -h target -maxtime 3600s -o nikto_target_dd-mm-yyyy.xml`<br/><br/>Example:<br/>`./nikto.pl -h http://www.gh1mau.com -maxtime 3600s -o nikto_www.gh1mau.com_22-12-2020.xml`                                                                               |
-   | Import nikto xml output to defectDojo (refer to [defectDojo docker setup (ubuntu 18.04)](https://github.com/gh1mau/vapt/blob/main/defectDojo.md#defectdojo-docker-setup-ubuntu-1804) for setup and run command) ):<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/import_findings.PNG) |
-   | You will be redirected to **Engagements** area, we will be touching this during the **Verification of the Findings Phase**.<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/nikto_import_dojo_engagement.png)                                                                           |
 
-2. Run **arachni scan** and export the report (JSON format)
+
+
+
+
+1. Run **arachni scan** and export the report (JSON format)
    
    | Instructions                                                                                                                                                                                                                                                                          |
    | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -149,7 +150,7 @@ While here is the basic steps to BlackBox Scanning
    | Import arachni report to defectDojo<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/arachni_import_dojo.png)                                                                                                                                                         |
    | You will be redirected to **Engagements** area, we will be touching this during the **Verification of the Findings Phase**.<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/arachni_import_dojo_engagement.png)                                                      |
 
-3. Run **OWASP ZAP** and export the xml file
+2. Run **OWASP ZAP** and export the xml file
    
    | Instructions                                                                                                                                                                                                                 |
    | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
