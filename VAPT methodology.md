@@ -132,9 +132,16 @@ While here is the basic steps to BlackBox Scanning
 
 
 | Nikto                                                                                                                                                                                                                                                                  |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Run nikto and save xml result. You can refer [Setup Nikto in Ubuntu 18.04](https://github.com/gh1mau/vapt/blob/main/nikto.md#setup-nikto-in-ubuntu-1804) for setup and cheat sheet.<br/><br/>`./nikto.pl -h target -maxtime 3600s -o nikto_target_dd-mm-yyyy.xml`<br/> |
-|                                                                                                                                                                                                                                                                        |
+| ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/nikto_blackbox_1.png)                                                                                                                                                                                     |
+
+
+
+| Arachni                                                                                     |
+|:------------------------------------------------------------------------------------------- |
+| Run arachni scan without providing any recorded login<br/>                                  |
+| Save arachni's JSON result by with this naming format:<br/>`arachni_target_dd-mm-yyyy.json` |
 
 
 
@@ -142,15 +149,7 @@ While here is the basic steps to BlackBox Scanning
 
 
 
-1. Run **arachni scan** and export the report (JSON format)
-   
-   | Instructions                                                                                                                                                                                                                                                                          |
-   | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-   | Run **arachni scan** (set the corresponding profile) and save the **JSON** result. Save in `arachni_target_dd-mm-yyyy.json` format. <br/><br/>Example:<br/>`arachni_www.gh1mau.com_22-12-2020.json`![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/arachni_report_1.png) |
-   | Import arachni report to defectDojo<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/arachni_import_dojo.png)                                                                                                                                                         |
-   | You will be redirected to **Engagements** area, we will be touching this during the **Verification of the Findings Phase**.<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/arachni_import_dojo_engagement.png)                                                      |
-
-2. Run **OWASP ZAP** and export the xml file
+1. Run **OWASP ZAP** and export the xml file
    
    | Instructions                                                                                                                                                                                                                 |
    | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
