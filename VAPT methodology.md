@@ -6,11 +6,11 @@
 
 3. [Methodology](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#methodology)
 
-4. BlackBox Scanning Phase
+4. [BlackBox Scanning Phase](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#blackbox-scanning-phase)
 
-5. WhiteBox Scanning Phase
+5. Massaging Phase (BlackBox Findings)
 
-6. Massaging Phase
+6. WhiteBox Scanning Phase
 
 ---
 
@@ -138,12 +138,16 @@ While here is the basic steps to BlackBox Scanning
 
 
 
-| Arachni                                                                                                                                        |
-|:---------------------------------------------------------------------------------------------------------------------------------------------- |
-| Run arachni scan without providing any recorded login<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/arachni_blackbox_1.png) |
-| Save arachni's JSON result by with this naming format:<br/>`arachni_target_dd-mm-yyyy.json`<br/>                                               |
+| Arachni                                                                                                                                                                                  |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Run arachni scan without providing any recorded login<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/arachni_blackbox_1.png)                                           |
+| Save arachni's **JSON** result by with this naming format:<br/>`arachni_target_dd-mm-yyyy.json`<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/arachni_blackbox_2.png) |
 
 
+
+| OWASP ZAP                                                                                |
+|:---------------------------------------------------------------------------------------- |
+| Run ZAP Scan without providing any recorded login, just hit the Start Attack button<br/> |
 
 
 
