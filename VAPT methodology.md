@@ -138,10 +138,10 @@ While here is the basic steps to BlackBox Scanning
 
 
 
-| Arachni                                                                                     |
-|:------------------------------------------------------------------------------------------- |
-| Run arachni scan without providing any recorded login<br/>                                  |
-| Save arachni's JSON result by with this naming format:<br/>`arachni_target_dd-mm-yyyy.json` |
+| Arachni                                                                                                                                        |
+|:---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Run arachni scan without providing any recorded login<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/arachni_blackbox_1.png) |
+| Save arachni's JSON result by with this naming format:<br/>`arachni_target_dd-mm-yyyy.json`<br/>                                               |
 
 
 
