@@ -53,8 +53,6 @@ The assessment would be divided into two(2) main approach:
 
 ---
 
-
-
 ### VA Scanning Tools
 
 There a many tools that can be use to accomplish this assessment, both commercial or open source tools. For this **Simplified Methodology** I am going to suggest and use the following:
@@ -82,8 +80,6 @@ Following diagram shows the **General Overview** for Web Application Vulnerabili
 
 We will discuss briefly every phase involves in Web-VAPT-MMS and will go deeper in later sections.
 
-
-
 | Scanning Phase                                                                                                                                                                                                                                                                           |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | This phase will cover both the **BlackBox** and **WhiteBox** assessments using the tools mentioned in the [VA Scanning Tools](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#va-scanning-tools) section. Later we'll need to import the report/result to the next phase. |
@@ -100,8 +96,6 @@ We will discuss briefly every phase involves in Web-VAPT-MMS and will go deeper 
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | The last phase of the Web-VAPT-MMS first cycle. We will be using pwndoc ([pwndoc docker setup (ubuntu 18.04](https://github.com/gh1mau/vapt/blob/main/pwndoc.md)) for Penetration Testing report generator. We may need to start over the whole process for re-test if needed. |
 
-
-
 At the end, the output of the Web-VAPT-MMS process will produce two(2) reports:
 
 1. Vulnerability Assessment Report (**defectDojo**)
@@ -116,25 +110,23 @@ At the end, the output of the Web-VAPT-MMS process will produce two(2) reports:
 
 As mentioned earlier, BlackBox Scanning in **Web-VAPT-MMS** context means as simple as scanning targets without credentials, put in your target ip/url and hit the scan button and buy your self a good cup of coffee. To save time, we might run the scanners simultaneously. 
 
-
-
 The objective of this phase would be:
 
 1. Perform common Vulnerability Scanning against target
 
 2. Saving the results, later will import to defectDojo
 
-
-
 During the Massaging Phase later, we will corelate and analyze the findings/scanning results to find potential entry point(s) to exploit.
 
+![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/blackbox_scanning_phase.png)
 
 
 
+While here is the basic steps to BlackBox Scanning
 
-
-
-![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/scanning_phase.png)
+| Nessus |
+| ------ |
+|        |
 
 1. Run **Nessus** scan and export the xml file.
    
