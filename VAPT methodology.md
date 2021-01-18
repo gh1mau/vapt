@@ -124,17 +124,17 @@ During the Massaging Phase later, we will corelate and analyze the findings/scan
 
 While here is the basic steps to BlackBox Scanning
 
-| Nessus                                                                                                                                                                                     |
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Run **nessus scan** to the target without providing any credentials.<br/><br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/nessus_blackbox_1.PNG)                          |
-| Save the report in CSV with the following naming format:<br/>`nessus_<target>_dd-mm-yyyy.csv`<br/><br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/nessus_blackbox_2.PNG) |
+| Nessus                                                                                                                                                                                         |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Run **nessus scan** to the target without providing any credentials.<br/><br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/nessus_blackbox_1.PNG)                              |
+| Save the report in **CSV** with the following naming format:<br/>`nessus_<target>_dd-mm-yyyy.csv`<br/><br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/nessus_blackbox_2.PNG) |
 
 
 
-| Nikto                                                                                                                                                                                                                                                                  |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Run nikto and save xml result. You can refer [Setup Nikto in Ubuntu 18.04](https://github.com/gh1mau/vapt/blob/main/nikto.md#setup-nikto-in-ubuntu-1804) for setup and cheat sheet.<br/><br/>`./nikto.pl -h target -maxtime 3600s -o nikto_target_dd-mm-yyyy.xml`<br/> |
-| ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/nikto_blackbox_1.png)                                                                                                                                                                                     |
+| Nikto                                                                                                                                                                                                                                                                      |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Run nikto and save **xml** result. You can refer [Setup Nikto in Ubuntu 18.04](https://github.com/gh1mau/vapt/blob/main/nikto.md#setup-nikto-in-ubuntu-1804) for setup and cheat sheet.<br/><br/>`./nikto.pl -h target -maxtime 3600s -o nikto_target_dd-mm-yyyy.xml`<br/> |
+| ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/nikto_blackbox_1.png)                                                                                                                                                                                         |
 
 
 
@@ -145,18 +145,17 @@ While here is the basic steps to BlackBox Scanning
 
 
 
-| OWASP ZAP                                                                                |
-|:---------------------------------------------------------------------------------------- |
-| Run ZAP Scan without providing any recorded login, just hit the Start Attack button<br/> |
+| OWASP ZAP                                                                                                                                                                |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Run ZAP Scan without providing any recorded login, just hit the Start Attack button<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/zap_blackbox_1.PNG) |
+| Save the **XML** result. Save in `zap_target_dd-mm-yyyy.json` format. <br/>                                                                                              |
 
 
 
+Next would be Massaging Phase (BlackBox Findings), here we'll start integrating and analyzing the BlackBox Scanning Findings.
 
 
-1. Run **OWASP ZAP** and export the xml file
-   
-   | Instructions                                                                                                                                                                                                                 |
-   | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-   | Run **OWASP ZAP** and save the **XML** result. Save in `zap_target_dd-mm-yyyy.json` format. <br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/zap_report.png)                                                |
-   | Import OWASP ZAP report to defectDojo<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/zap_import_dojo.png)                                                                                                  |
-   | You will be redirected to **Engagements** area, we will be touching this during the **Verification of the Findings Phase**.<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/zap_import_dojo_engagement.png) |
+
+[toc](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#web-application-vulnerability-assessment-and-penetration-testing-management-methodology-simplified-web-vapt-mms)
+
+---
