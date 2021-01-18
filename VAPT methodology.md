@@ -185,8 +185,14 @@ Image
 
 
 
-| Import Nikto Findings                                                                                |
-| ---------------------------------------------------------------------------------------------------- |
-| Add nikto findings, and click the Import button. You will be redirected to the Engagement page.<br/> |
-|                                                                                                      |
-|                                                                                                      |
+| Import Nikto Findings                                                                                                                                                                                 |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Add nikto findings, and click the Import button. You will be redirected to the Engagement page.<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/nikto_import.png) |
+| Engagement Page<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/nikto_engagement_1.png)                                                                           |
+| Edit the Engagement Test, later we will start Verifying and and Analyzing the findings<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/nikto_engagement_2.png)    |
+
+| Import Arachni Findings                                                                                |
+| ------------------------------------------------------------------------------------------------------ |
+| Add arachni findings, and click the Import button. You will be redirected to the Engagement page.<br/> |
+| Engagement Page<br/>                                                                                   |
+| Edit the Engagement Test, later we will start Verifying and and Analyzing the findings<br/>            |
