@@ -197,8 +197,8 @@ Image
 | Engagement Page<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/arachni_engagement_1.png)                                                                             |
 | Edit the Engagement Test, later we will start Verifying and and Analyzing the findings<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/arachni_engagement_2.png)      |
 
-| Import OWASP ZAP Findings                                                                                |
-|:-------------------------------------------------------------------------------------------------------- |
-| Add OWASP ZAP findings, and click the Import button. You will be redirected to the Engagement page.<br/> |
-| Engagement Page<br/>                                                                                     |
-| Edit the Engagement Test, later we will start Verifying and and Analyzing the findings<br/>              |
+| Import OWASP ZAP Findings                                                                                                                                                                               |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Add OWASP ZAP findings, and click the Import button. You will be redirected to the Engagement page.<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/zap_import.png) |
+| Engagement Page<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/zap_engagement_1.png)                                                                               |
+| Edit the Engagement Test, later we will start Verifying and and Analyzing the findings<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/zap_engagement_2.png)        |
