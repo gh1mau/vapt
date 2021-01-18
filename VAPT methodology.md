@@ -8,7 +8,7 @@
 
 4. [BlackBox Scanning Phase](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#blackbox-scanning-phase)
 
-5. Massaging Phase (BlackBox Findings)
+5. [Massaging Phase (BlackBox Findings)](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#massaging-phase-blackbox-findings)
 
 6. WhiteBox Scanning Phase
 
@@ -164,3 +164,13 @@ Next would be Massaging Phase (BlackBox Findings), here we'll start **importing*
 
 
 ### Massaging Phase (BlackBox Findings)
+
+![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/Massaging_Phase_Black%20Box.png)
+
+In Massaging Phase (BlackBox Findings), we are going to import the findings from the BlackBox Scanning Phase to defectDojo.
+
+
+
+The flow to import findings to defectDojo is ilustrated in the diagram below:
+
+Image
