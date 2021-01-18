@@ -203,4 +203,18 @@ Image
 | Engagement Page<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/zap_engagement_1.png)                                                                               |
 | Edit the Engagement Test, later we will start Verifying and and Analyzing the findings<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/zap_engagement_2.png)        |
 
+---
+
+
+
+#### Integrations and Merging
+
 We will have 4 engagements that need to verified, we can edit the Engagement's Descriptions as needed.
+
+![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/engagements.png)
+
+---
+
+
+
+#### Verifications
