@@ -178,7 +178,7 @@ The flow to import findings to defectDojo is ilustrated in the diagram below:
 Image
 
 | Import Nessus Findings                                                                                                                                                                                  |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Add nessus findings, and click the Import button. You will be redirected to the Engagement page.<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/nessus_import.PNG) |
 | Engagement Page<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/nessus_engagement_1.png)                                                                            |
 | Edit the Engagement Test, later we will start Verifying and and Analyzing the findings<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/nessus_engagement_2.png)     |
@@ -186,13 +186,19 @@ Image
 
 
 | Import Nikto Findings                                                                                                                                                                                 |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Add nikto findings, and click the Import button. You will be redirected to the Engagement page.<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/nikto_import.png) |
 | Engagement Page<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/nikto_engagement_1.png)                                                                           |
 | Edit the Engagement Test, later we will start Verifying and and Analyzing the findings<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/nikto_engagement_2.png)    |
 
-| Import Arachni Findings                                                                                |
-| ------------------------------------------------------------------------------------------------------ |
-| Add arachni findings, and click the Import button. You will be redirected to the Engagement page.<br/> |
-| Engagement Page<br/>                                                                                   |
-| Edit the Engagement Test, later we will start Verifying and and Analyzing the findings<br/>            |
+| Import Arachni Findings                                                                                                                                                                                   |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Add arachni findings, and click the Import button. You will be redirected to the Engagement page.<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/arachni_import.png) |
+| Engagement Page<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/arachni_engagement_1.png)                                                                             |
+| Edit the Engagement Test, later we will start Verifying and and Analyzing the findings<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/arachni_engagement_2.png)      |
+
+| Import OWASP ZAP Findings                                                                                |
+|:-------------------------------------------------------------------------------------------------------- |
+| Add OWASP ZAP findings, and click the Import button. You will be redirected to the Engagement page.<br/> |
+| Engagement Page<br/>                                                                                     |
+| Edit the Engagement Test, later we will start Verifying and and Analyzing the findings<br/>              |
