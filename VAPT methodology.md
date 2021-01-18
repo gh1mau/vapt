@@ -167,10 +167,18 @@ Next would be Massaging Phase (BlackBox Findings), here we'll start **importing*
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/Massaging_Phase_Black%20Box.png)
 
-In Massaging Phase (BlackBox Findings), we are going to import the findings from the BlackBox Scanning Phase to defectDojo.
+In **Massaging Phase (BlackBox Findings)**, we are going to import the findings from the [BlackBox Scanning Phase](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#blackbox-scanning-phase) to defectDojo.
 
 
+
+#### Import Findings
 
 The flow to import findings to defectDojo is ilustrated in the diagram below:
 
 Image
+
+| Add Nessus Findings                                                                              |
+| ------------------------------------------------------------------------------------------------ |
+| Add nessus findings, and click the Import button. You will be redirected to the Engagement page. |
+|                                                                                                  |
+|                                                                                                  |
