@@ -202,3 +202,5 @@ Image
 | Add OWASP ZAP findings, and click the Import button. You will be redirected to the Engagement page.<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/zap_import.png) |
 | Engagement Page<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/zap_engagement_1.png)                                                                               |
 | Edit the Engagement Test, later we will start Verifying and and Analyzing the findings<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/zap_engagement_2.png)        |
+
+We will have 4 engagements that need to verified, we can edit the Engagement's Descriptions as needed.
