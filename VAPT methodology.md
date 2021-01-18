@@ -120,8 +120,6 @@ During the Massaging Phase later, we will corelate and analyze the findings/scan
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/blackbox_scanning_phase.png)
 
-
-
 While here is the basic steps to BlackBox Scanning
 
 | Nessus                                                                                                                                                                                         |
@@ -129,32 +127,22 @@ While here is the basic steps to BlackBox Scanning
 | Run **nessus scan** to the target without providing any credentials.<br/><br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/nessus_blackbox_1.PNG)                              |
 | Save the report in **CSV** with the following naming format:<br/>`nessus_<target>_dd-mm-yyyy.csv`<br/><br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/nessus_blackbox_2.PNG) |
 
-
-
 | Nikto                                                                                                                                                                                                                                                                      |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Run nikto and save **xml** result. You can refer [Setup Nikto in Ubuntu 18.04](https://github.com/gh1mau/vapt/blob/main/nikto.md#setup-nikto-in-ubuntu-1804) for setup and cheat sheet.<br/><br/>`./nikto.pl -h target -maxtime 3600s -o nikto_target_dd-mm-yyyy.xml`<br/> |
 | ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/nikto_blackbox_1.png)                                                                                                                                                                                         |
-
-
 
 | Arachni                                                                                                                                                                                  |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Run arachni scan without providing any recorded login<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/arachni_blackbox_1.png)                                           |
 | Save arachni's **JSON** result by with this naming format:<br/>`arachni_target_dd-mm-yyyy.json`<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/arachni_blackbox_2.png) |
 
-
-
 | OWASP ZAP                                                                                                                                                                |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Run ZAP Scan without providing any recorded login, just hit the Start Attack button<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/zap_blackbox_1.PNG) |
-| Save the **XML** result. Save in `zap_target_dd-mm-yyyy.json` format. <br/>                                                                                              |
-
-
+| Save the **XML** result. Save in `zap_target_dd-mm-yyyy.xml` format. <br/>                                                                                               |
 
 Next would be Massaging Phase (BlackBox Findings), here we'll start integrating and analyzing the BlackBox Scanning Findings.
-
-
 
 [toc](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#web-application-vulnerability-assessment-and-penetration-testing-management-methodology-simplified-web-vapt-mms)
 
