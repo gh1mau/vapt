@@ -140,10 +140,27 @@ While here is the basic steps to BlackBox Scanning
 | OWASP ZAP                                                                                                                                                                |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Run ZAP Scan without providing any recorded login, just hit the Start Attack button<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/zap_blackbox_1.PNG) |
-| Save the **XML** result. Save in `zap_target_dd-mm-yyyy.xml` format. <br/>                                                                                               |
+| Save the **XML** result. Save in `zap_target_dd-mm-yyyy.xml` format. <br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/zap_blackbox_2.PNG)               |
 
-Next would be Massaging Phase (BlackBox Findings), here we'll start integrating and analyzing the BlackBox Scanning Findings.
+
+
+Here is the summary of report format that should be saved as:
+
+| Tool      | Format | Naming Format                    |
+|:--------- |:------:|:-------------------------------- |
+| nessus    | CSV    | `nessus_<target>_dd-mm-yyyy.csv` |
+| nikto     | XML    | `nikto_target_dd-mm-yyyy.xml`    |
+| arachni   | JSON   | `arachni_target_dd-mm-yyyy.json` |
+| owasp zap | XML    | `zap_target_dd-mm-yyyy.xml`      |
+
+
+
+Next would be Massaging Phase (BlackBox Findings), here we'll start **importing**, **integrating** and **analyzing** the BlackBox Scanning Findings.
 
 [toc](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#web-application-vulnerability-assessment-and-penetration-testing-management-methodology-simplified-web-vapt-mms)
 
 ---
+
+
+
+### Massaging Phase (BlackBox Findings)
