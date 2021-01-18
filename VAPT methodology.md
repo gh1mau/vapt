@@ -177,8 +177,16 @@ The flow to import findings to defectDojo is ilustrated in the diagram below:
 
 Image
 
-| Add Nessus Findings                                                                                                                                                                                     |
+| Import Nessus Findings                                                                                                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Add nessus findings, and click the Import button. You will be redirected to the Engagement page.<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/nessus_import.PNG) |
-| Engagement Page                                                                                                                                                                                         |
-| Edit the Engagement Test, later we will start Verifying and and Analyzing the findings                                                                                                                  |
+| Engagement Page<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/nessus_engagement_1.png)                                                                            |
+| Edit the Engagement Test, later we will start Verifying and and Analyzing the findings<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/nessus_engagement_2.png)     |
+
+
+
+| Import Nikto Findings                                                                                |
+| ---------------------------------------------------------------------------------------------------- |
+| Add nikto findings, and click the Import button. You will be redirected to the Engagement page.<br/> |
+|                                                                                                      |
+|                                                                                                      |
