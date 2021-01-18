@@ -220,3 +220,5 @@ We will have 4 engagements that need to verified, we can edit the Engagement's D
 #### Verifications
 
 In this stage we will need to verify every findings from each engagements. Analyze each findings and determine wether it is **Active**, **Verified**, **False Positive**, **Out Of Scope** or **Mitigated**.
+
+![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/verification.png)
