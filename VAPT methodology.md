@@ -203,7 +203,7 @@ We will have 4 engagements that need to verified, we can edit the Engagement's D
 
 ---
 
-#### Verifications
+#### Verifications Level 1
 
 In this stage we will need to verify every findings from each engagements. Analyze each findings and determine whether it is **Active**, **Verified**, **False Positive**, **Out Of Scope** or **Mitigated**.
 
@@ -217,4 +217,10 @@ First step would be to Set **Active Status** to coresponding findings, then we'l
 
 
 
-We can view all the active findings: Findings -> View Open Findings. Later we have to go through each active / open findings and do the verifications. (We may need chaning the status to **Verified**, **False Positive**, **Out Of Scope** ,**Mitigated** or **Inactive**.)
+We can view all the active findings: Findings -> View Open Findings. Later we have to go through each active / open findings and do the verifications. (We may need chaning the status to **Verified**, **False Positive**, **Out Of Scope** ,**Mitigated** or **Inactive**)
+
+![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/active_findings.png)
+
+
+
+We can look the overview of the particular product.
