@@ -209,4 +209,12 @@ In this stage we will need to verify every findings from each engagements. Analy
 
 
 
-First step would be to Set **Active Status** to coresponding findings, then we'll verify the **Open (active) findings**.
+First step would be to Set **Active Status** to coresponding findings, then we'll verify the **Open (active) findings**. Remaing findings will be left as **inactive**  for references .
+
+
+
+![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/verification_active.png)
+
+
+
+We can view all the active findings: Findings -> View Open Findings. Later we have to go through each active / open findings and do the verifications. (We may need chaning the status to **Verified**, **False Positive**, **Out Of Scope** ,**Mitigated** or **Inactive**.)
