@@ -142,8 +142,6 @@ While here is the basic steps to BlackBox Scanning
 | Run ZAP Scan without providing any recorded login, just hit the Start Attack button<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/zap_blackbox_1.PNG) |
 | Save the **XML** result. Save in `zap_target_dd-mm-yyyy.xml` format. <br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/zap_blackbox_2.PNG)               |
 
-
-
 Here is the summary of report format that should be saved as:
 
 | Tool      | Format | Naming Format                    |
@@ -153,23 +151,17 @@ Here is the summary of report format that should be saved as:
 | arachni   | JSON   | `arachni_target_dd-mm-yyyy.json` |
 | owasp zap | XML    | `zap_target_dd-mm-yyyy.xml`      |
 
-
-
 Next would be Massaging Phase (BlackBox Findings), here we'll start **importing**, **integrating** and **analyzing** the BlackBox Scanning Findings.
 
 [toc](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#web-application-vulnerability-assessment-and-penetration-testing-management-methodology-simplified-web-vapt-mms)
 
 ---
 
-
-
 ### Massaging Phase (BlackBox Findings)
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/Massaging_Phase_Black%20Box.png)
 
 In **Massaging Phase (BlackBox Findings)**, we are going to import the findings from the [BlackBox Scanning Phase](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#blackbox-scanning-phase) to defectDojo.
-
-
 
 #### Import Findings
 
@@ -182,8 +174,6 @@ The flow to import findings to defectDojo is ilustrated in the diagram below:
 | Add nessus findings, and click the Import button. You will be redirected to the Engagement page.<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/nessus_import.PNG) |
 | Engagement Page<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/nessus_engagement_1.png)                                                                            |
 | Edit the Engagement Test, later we will start Verifying and and Analyzing the findings<br/>![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/nessus_engagement_2.png)     |
-
-
 
 | Import Nikto Findings                                                                                                                                                                                 |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -205,8 +195,6 @@ The flow to import findings to defectDojo is ilustrated in the diagram below:
 
 ---
 
-
-
 #### Integrations and Merging
 
 We will have 4 engagements that need to verified, we can edit the Engagement's Descriptions as needed.
@@ -215,10 +203,10 @@ We will have 4 engagements that need to verified, we can edit the Engagement's D
 
 ---
 
-
-
 #### Verifications
 
-In this stage we will need to verify every findings from each engagements. Analyze each findings and determine wether it is **Active**, **Verified**, **False Positive**, **Out Of Scope** or **Mitigated**.
+In this stage we will need to verify every findings from each engagements. Analyze each findings and determine whether it is **Active**, **Verified**, **False Positive**, **Out Of Scope** or **Mitigated**.
 
-![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/verification.png)
+
+
+First step would be to Set **Active Status** to coresponding findings, then we'll verify the **Open (active) findings**.
