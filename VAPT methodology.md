@@ -163,7 +163,7 @@ Next would be Massaging Phase (BlackBox Findings), here we'll start **importing*
 
 In **Massaging Phase (BlackBox Findings)**, we are going to import the findings from the [BlackBox Scanning Phase](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#blackbox-scanning-phase) to defectDojo.
 
-#### Import Findings
+### Import Findings
 
 The flow to import findings to defectDojo is ilustrated in the diagram below:
 
@@ -195,7 +195,7 @@ The flow to import findings to defectDojo is ilustrated in the diagram below:
 
 ---
 
-#### Integrations and Merging
+### Integrations and Merging
 
 We will have 4 engagements that need to verified, we can edit the Engagement's Descriptions as needed.
 
@@ -203,11 +203,15 @@ We will have 4 engagements that need to verified, we can edit the Engagement's D
 
 ---
 
-#### Verifications Level 1
+### Verifications
 
 In this stage we will need to verify every findings from each engagements. Analyze each findings and determine whether it is **Active**, **Verified**, **False Positive**, **Out Of Scope** or **Mitigated**.
 
+image??
 
+
+
+### Verifications Level 1
 
 First step would be to Set **Active Status** to coresponding findings, then we'll verify the **Open (active) findings**. Remaing findings will be left as **inactive**  for references .
 
@@ -224,3 +228,23 @@ We can view all the active findings: Findings -> View Open Findings. Later we ha
 
 
 We can look the overview of the particular product.
+
+![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/overview.png)
+
+---
+
+
+
+### Threat Modelling
+
+It is advisable to create a Threat Model based on findings from Verifications Level 1 phase. I'm using OWASP Threat Dragon for this activity.
+
+
+
+Create a simple and Generic Web Application Threat Diagram and make sure to auto suggest threats based on element, this will somehow help us creating baseline for conducting attacks in PoC Phase.
+
+
+
+### Verifications Level 2
+
+In Level 2 Verifications, we need to identify and clarify all the active findings and set the proper status : **Verified**, **False Positive**, **Out Of Scope**
