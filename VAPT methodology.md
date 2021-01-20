@@ -243,6 +243,14 @@ It is advisable to create a Threat Model based on findings from Verifications Le
 
 Create a simple and Generic Web Application Threat Diagram and make sure to auto suggest threats based on element, this will somehow help us creating baseline for conducting attacks in PoC Phase.
 
+![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/threat_modelling_1.PNG)
+
+
+
+Here is a sample of Generic Web Application Threat Diagram that can be imported to Threat Dragon.
+
+[Download](https://github.com/gh1mau/vapt/blob/main/general_web_app.json)
+
 
 
 ### Verifications Level 2
