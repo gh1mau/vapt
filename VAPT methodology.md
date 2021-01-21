@@ -10,7 +10,9 @@
 
 5. [Massaging Phase (BlackBox Findings)](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#massaging-phase-blackbox-findings)
 
-6. WhiteBox Scanning Phase
+6. PoC Phase 1 (BlackBox Findings)
+
+7. 
 
 ---
 
@@ -170,10 +172,10 @@ Next would be Massaging Phase (BlackBox Findings), here we'll start **importing*
 5. [Threat Modeling](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#threat-modelling)
 
 6. [Verifications Level 2](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#verifications-level-2)
-
-7.   
-
-     
+   
+   
+   
+        
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/Massaging_Phase_Black%20Box.png)
 
@@ -249,7 +251,7 @@ We can look the overview of the particular product.
 
 It is advisable to create a Threat Model based on findings from Verifications Level 1 phase. I'm using OWASP Threat Dragon for this activity.
 
-Create a simple and Generic Web Application Threat Diagram and make sure to auto suggest threats based on element, this will somehow help us creating baseline for conducting attacks in PoC Phase.
+Create a simple and Generic Web Application Threat Diagram and make sure to auto suggest threats based on element, this will somehow help us creating baseline for conducting attacks during PoC Phase.
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/threat_modelling_1.PNG)
 
@@ -261,14 +263,34 @@ Here is a sample of Generic Web Application Threat Diagram that can be imported 
 
 ### Verifications Level 2
 
-In Level 2 Verifications, we need to identify and clarify all the active findings and set the proper status : **Verified**, **False Positive**, **Out Of Scope**. Based on the Threat Modeling Diagram that we have created earier, we will conduct the PoC Phase to verify all the active findings.
+In Verifications Level 2, we need to identify and clarify all the active findings and set the proper status : **Verified**, **False Positive**, **Out Of Scope**. Based on the Threat Modeling Diagram that we have created earier, we will conduct the PoC Phase to verify all the active findings.
 
 
 
-image ??
+![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/verifications_level2.png)
 
 
 
 During this phase we might uncover False Negative findings by using several common fuzzing techniques.
 
-> A false negative is the opposite of a false positive (go figure!). You may run a security scanner like Nessus and for one reason or another it may miss a vulnerability that may in fact exist. Possible reasons for a false negative include a check not yet being written (maybe the vulnerability is to new?), user error (maybe you didn't select the right policy, or maybe your configuration needs tweaking), or some other good explanation.
+> A false negative is the opposite of a false positive (go figure!). You may run a security scanner like Nessus and for one reason or another it may miss a vulnerability that may in fact exist. Possible reasons for a false negative include a check not yet being written (maybe the vulnerability is to new?), user error (maybe you didn't select the right policy, or maybe your configuration needs tweaking), or some other good explanation
+
+
+
+[toc](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#web-application-vulnerability-assessment-and-penetration-testing-management-methodology-simplified-web-vapt-mms)
+
+---
+
+
+
+### PoC Phase 1 (BlackBox Findings)
+
+This is a list of common vulnerabilites that i found during my Penetration Testing activity, incuding fuzzing techniques, scripting and tools used, exploitation, description and general remediation. 
+
+
+
+| #   | Issue             |
+| --- | ----------------- |
+| 1   | Directory Listing |
+|     |                   |
+|     |                   |
