@@ -159,9 +159,27 @@ Next would be Massaging Phase (BlackBox Findings), here we'll start **importing*
 
 ### Massaging Phase (BlackBox Findings)
 
+1. [Import Findings](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#import-findings)
+
+2. [Integrations and Merging](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#integrations-and-merging)
+
+3. [Verifications](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#verifications)
+
+4. [Verifications Level 1](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#verifications-level-1)
+
+5. [Threat Modeling](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#threat-modelling)
+
+6. [Verifications Level 2](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#verifications-level-2)
+
+7.   
+
+     
+
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/Massaging_Phase_Black%20Box.png)
 
 In **Massaging Phase (BlackBox Findings)**, we are going to import the findings from the [BlackBox Scanning Phase](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#blackbox-scanning-phase) to defectDojo.
+
+
 
 ### Import Findings
 
@@ -209,23 +227,17 @@ In this stage we will need to verify every findings from each engagements. Analy
 
 image??
 
-
+---
 
 ### Verifications Level 1
 
 First step would be to Set **Active Status** to coresponding findings, then we'll verify the **Open (active) findings**. Remaing findings will be left as **inactive**  for references .
 
-
-
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/verification_active.png)
-
-
 
 We can view all the active findings: Findings -> View Open Findings. Later we have to go through each active / open findings and do the verifications. (We may need chaning the status to **Verified**, **False Positive**, **Out Of Scope** ,**Mitigated** or **Inactive**)
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/active_findings.png)
-
-
 
 We can look the overview of the particular product.
 
@@ -233,26 +245,30 @@ We can look the overview of the particular product.
 
 ---
 
-
-
 ### Threat Modelling
 
 It is advisable to create a Threat Model based on findings from Verifications Level 1 phase. I'm using OWASP Threat Dragon for this activity.
-
-
 
 Create a simple and Generic Web Application Threat Diagram and make sure to auto suggest threats based on element, this will somehow help us creating baseline for conducting attacks in PoC Phase.
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/threat_modelling_1.PNG)
 
-
-
 Here is a sample of Generic Web Application Threat Diagram that can be imported to Threat Dragon.
 
 [Download](https://github.com/gh1mau/vapt/blob/main/general_web_app.json)
 
-
+---
 
 ### Verifications Level 2
 
-In Level 2 Verifications, we need to identify and clarify all the active findings and set the proper status : **Verified**, **False Positive**, **Out Of Scope**
+In Level 2 Verifications, we need to identify and clarify all the active findings and set the proper status : **Verified**, **False Positive**, **Out Of Scope**. Based on the Threat Modeling Diagram that we have created earier, we will conduct the PoC Phase to verify all the active findings.
+
+
+
+image ??
+
+
+
+During this phase we might uncover False Negative findings by using several common fuzzing techniques.
+
+> A false negative is the opposite of a false positive (go figure!). You may run a security scanner like Nessus and for one reason or another it may miss a vulnerability that may in fact exist. Possible reasons for a false negative include a check not yet being written (maybe the vulnerability is to new?), user error (maybe you didn't select the right policy, or maybe your configuration needs tweaking), or some other good explanation.
