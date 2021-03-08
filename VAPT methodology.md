@@ -118,7 +118,7 @@ The objective of this phase would be:
 
 2. Saving the results, later will import to defectDojo
 
-During the Massaging Phase later, we will corelate and analyze the findings/scanning results to find potential entry point(s) to exploit.
+During the Massaging Phase later, we will correlate and analyze the findings/scanning results to find potential entry point(s) to exploit.
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/blackbox_scanning_phase.png)
 
@@ -172,16 +172,12 @@ Next would be Massaging Phase (BlackBox Findings), here we'll start **importing*
 5. [Threat Modeling](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#threat-modelling)
 
 6. [Verifications Level 2](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#verifications-level-2)
-   
-   
-   
+
         
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/Massaging_Phase_Black%20Box.png)
 
 In **Massaging Phase (BlackBox Findings)**, we are going to import the findings from the [BlackBox Scanning Phase](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#blackbox-scanning-phase) to defectDojo.
-
-
 
 ### Import Findings
 
@@ -265,29 +261,19 @@ Here is a sample of Generic Web Application Threat Diagram that can be imported 
 
 In Verifications Level 2, we need to identify and clarify all the active findings and set the proper status : **Verified**, **False Positive**, **Out Of Scope**. Based on the Threat Modeling Diagram that we have created earier, we will conduct the PoC Phase to verify all the active findings.
 
-
-
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/massaging_blackbox/verifications_level2.png)
-
-
 
 During this phase we might uncover False Negative findings by using several common fuzzing techniques.
 
 > A false negative is the opposite of a false positive (go figure!). You may run a security scanner like Nessus and for one reason or another it may miss a vulnerability that may in fact exist. Possible reasons for a false negative include a check not yet being written (maybe the vulnerability is to new?), user error (maybe you didn't select the right policy, or maybe your configuration needs tweaking), or some other good explanation
 
-
-
 [toc](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#web-application-vulnerability-assessment-and-penetration-testing-management-methodology-simplified-web-vapt-mms)
 
 ---
 
-
-
 ### PoC Phase 1 (BlackBox Findings)
 
 This is a list of common vulnerabilites that i found during my Penetration Testing activity, incuding fuzzing techniques, scripting and tools used, exploitation, description and general remediation. 
-
-
 
 | #   | Issue             |
 | --- | ----------------- |
