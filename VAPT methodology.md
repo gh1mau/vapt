@@ -172,7 +172,7 @@ Next would be Massaging Phase (BlackBox Findings), here we'll start **importing*
 5. [Threat Modeling](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#threat-modelling)
 
 6. [Verifications Level 2](https://github.com/gh1mau/vapt/blob/main/VAPT%20methodology.md#verifications-level-2)
-
+   
         
 
 ![](https://raw.githubusercontent.com/gh1mau/vapt/main/image/Massaging_Phase_Black%20Box.png)
@@ -275,8 +275,8 @@ During this phase we might uncover False Negative findings by using several comm
 
 This is a list of common vulnerabilites that i found during my Penetration Testing activity, incuding fuzzing techniques, scripting and tools used, exploitation, description and general remediation. 
 
-| #   | Issue             |
-| --- | ----------------- |
-| 1   | Directory Listing |
-|     |                   |
-|     |                   |
+| #   | Issue                                                                                  |
+| --- | -------------------------------------------------------------------------------------- |
+| 1   | [Directory Listing](https://github.com/gh1mau/vapt/blob/main/poc/directory_listing.md) |
+|     |                                                                                        |
+|     |                                                                                        |
