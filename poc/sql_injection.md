@@ -38,6 +38,8 @@ sqlmap -r myapps --random-agent --level=5 --risk=3 -D sample_db --tables
 
 # enumeration(list out columns from sample_table from sample_db):
 sqlmap -r myapps --random-agent --level=5 --risk=3 -D sample_db -T sample_table --columns
+
+
 ```
 
 ---
