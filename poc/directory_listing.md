@@ -18,11 +18,9 @@
 
 ### Tools :
 
-#### XSStrike**
+#### XSStrike
 
 Reference: [Home · s0md3v/XSStrike Wiki · GitHub](https://github.com/s0md3v/XSStrike/wiki)
-
-
 
 ```bash
 # installing XSStrike:
@@ -41,13 +39,9 @@ $ python3 xsstrike.py -u "http://localhost/profile.php?nokp="
 
 ![](https://github.com/gh1mau/vapt/blob/main/image/xsstrike_1.png "XXStrike")
 
-
-
 ![](https://github.com/gh1mau/vapt/blob/main/image/xsstrike_2.png)
 
 ---
-
-
 
 ### Possible Payloads
 
@@ -58,5 +52,3 @@ $ python3 xsstrike.py -u "http://localhost/profile.php?nokp="
 
 %22%3Cd3V%0dOnmouSEoVeR%09=%09confirm(%22gh1mau%22)%3E%3Ch1%3Egh1mau%3C/h1%3E
 ```
-
-
