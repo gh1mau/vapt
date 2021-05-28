@@ -1,0 +1,19 @@
+### Missing Critical Step in Authentication
+
+| Vulnerability          | Missing Critical Step in Authentication                                                                                                                                                                                                                                        |
+|:---------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Severity**           | **MEDIUM**                                                                                                                                                                                                                                                                     |
+| **Affected URL**       | <insert the affected url\(s\)>                                                                                                                                                                                                                                                 |
+| **Tools**              | Burp Suite, Web Browser                                                                                                                                                                                                                                                        |
+| **Techniques/ Method** | Manual business logic testing                                                                                                                                                                                                                                                  |
+| **Proof of Concept**   | <insert POC screenshot\(s\)>                                                                                                                                                                                                                                                   |
+| **Payload\(s\)**       | n/a                                                                                                                                                                                                                                                                            |
+| **Description**        | Any unverified of not legitimate user(s) could register and use the system.<br/><br/>The software implements an authentication technique, but it skips a step that weakens the technique.                                                                                      |
+| **Impact**             | This weakness can lead to the exposure of resources or functionality to unintended actors, possibly providing attackers with sensitive information or allowing attackers to execute arbitrary code.<br/><br/>Unverified user may do spamming, or any other malicious activity. |
+| **CVE/CWE/OSVDB**      | CWE-304                                                                                                                                                                                                                                                                        |
+| **Recommendation**     | **User registration should be verified and approved by system admin.**                                                                                                                                                                                                         |
+| **References**         | [CWE-304: Missing Critical Step in Authentication](https://cwe.mitre.org/data/definitions/304.html)                                                                                                                                                                            |
+
+---
+
+### 

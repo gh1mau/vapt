@@ -275,8 +275,9 @@ During this phase we might uncover False Negative findings by using several comm
 
 This is a list of common vulnerabilites that i found during my Penetration Testing activity, incuding fuzzing techniques, scripting and tools used, exploitation, description and general remediation. 
 
-| #   | Issue                                                                                        |
-| --- | -------------------------------------------------------------------------------------------- |
-| 1   | [Directory Listing](https://github.com/gh1mau/vapt/blob/main/poc/directory_listing.md)       |
-| 2   | [Cross Site Scripting](https://github.com/gh1mau/vapt/blob/main/poc/cross_site_scripting.md) |
-| 3   | [SQL Injection](https://github.com/gh1mau/vapt/blob/main/poc/sql_injection.md)               |
+| #   | Issue                                                                                                                              |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | [Directory Listing](https://github.com/gh1mau/vapt/blob/main/poc/directory_listing.md)                                             |
+| 2   | [Cross Site Scripting](https://github.com/gh1mau/vapt/blob/main/poc/cross_site_scripting.md)                                       |
+| 3   | [SQL Injection](https://github.com/gh1mau/vapt/blob/main/poc/sql_injection.md)                                                     |
+| 4   | [Missing Critical Step in Authentication](https://github.com/gh1mau/vapt/blob/main/poc/missing_critical_step_in_authentication.md) |
