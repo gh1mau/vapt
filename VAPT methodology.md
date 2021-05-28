@@ -279,4 +279,4 @@ This is a list of common vulnerabilites that i found during my Penetration Testi
 | --- | -------------------------------------------------------------------------------------------- |
 | 1   | [Directory Listing](https://github.com/gh1mau/vapt/blob/main/poc/directory_listing.md)       |
 | 2   | [Cross Site Scripting](https://github.com/gh1mau/vapt/blob/main/poc/cross_site_scripting.md) |
-|     |                                                                                              |
+| 3   | [SQL Injection](https://github.com/gh1mau/vapt/blob/main/poc/sql_injection.md)               |
