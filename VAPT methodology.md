@@ -281,3 +281,4 @@ This is a list of common vulnerabilites that i found during my Penetration Testi
 | 2   | [Cross Site Scripting](https://github.com/gh1mau/vapt/blob/main/poc/cross_site_scripting.md)                                       |
 | 3   | [SQL Injection](https://github.com/gh1mau/vapt/blob/main/poc/sql_injection.md)                                                     |
 | 4   | [Missing Critical Step in Authentication](https://github.com/gh1mau/vapt/blob/main/poc/missing_critical_step_in_authentication.md) |
+| 5   | [Exposure of Backup File](https://github.com/gh1mau/vapt/blob/main/poc/exposure_of_backup_file.md)                                 |
